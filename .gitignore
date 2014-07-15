@@ -1,0 +1,5 @@
+# the image directory, hopefully
+images/*
+
+# swap files from vim
+*.sw*
