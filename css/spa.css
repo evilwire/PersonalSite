@@ -6,6 +6,7 @@ html, body
    width: 100%;
    min-height: 100%;
    color: RGBA(0, 0, 0, 0);
+   font-size: 0px;
 }
 
 a 
@@ -15,15 +16,22 @@ a
 }
 
 .nav-menu
+{
+   position: absolute;
+   width: 210px;
+}
+
+.nav-menu
 a
 div
 {
    display: inline-block;
    text-decoration: none;
-   background-color: #888;
-   width: 200px;
-   height: 200px;
+   background-color: #fefefe;
+   width: 100px;
+   height: 100px;
    margin : 3px 3px 0px 0px;
+   border-radius: 60px;
 }
 
 .nav-menu 
@@ -31,4 +39,38 @@ div
 div
 {
    background-image : url('../images/github.png');
+   background-size: cover;
+}
+
+.nav-menu
+.blog
+div
+{
+   background-image : url('../images/blog.png');
+   background-size: 70%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: #FD9F13;
+}
+
+.nav-menu
+.linkedin
+div
+{
+   background-image : url('../images/linkedin.png');
+   background-size: 80%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: #017DB3;
+}
+
+.nav-menu
+.stackoverflow
+div
+{
+   background-image : url('../images/stackoverflow.png');
+   background-size: auto 60%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: RGB(250, 250, 250);
 }
